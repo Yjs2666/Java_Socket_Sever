@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Form</title>
+    <style>
+        .main {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                align-items: top;
+                margin-top: 30px;
+                justify-content: center;
+        }
+        input {
+            width: 280px;
+            margin-bottom: 10px;
+            padding: 15px 15px 15px 5px;
+            border: 2px solid #EDDACC;
+            border-radius: 6px;
+            font-size: 15px;
+            color
+        }
+
+        input[type="submit"] {
+            width: 305px;
+            margin-bottom: 10px;
+            padding: 15px 15px 15px 5px;
+            border: 2px solid #EDDACC;
+            border-radius: 6px;
+            font-size: 15px;
+            color
+        }
+
+        input:focus {
+            border: 6px solid #555555;
+        }
+
+        label {
+            font-size: 27px;
+        }
+
+    </style>
+</head>
+<body style="background-color: #DDDED9;">
+<div class="main">
+    <div class="center">
+        <form method="POST">
+            <label for="rating">Rate Your Day from 0 to 10</label><br>
+            <input type="text" id="rating" name="rating"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
